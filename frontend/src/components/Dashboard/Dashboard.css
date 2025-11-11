@@ -1,0 +1,45 @@
+
+.dashboardSection {
+    width: 70%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.dashboardHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.dashboard__titulo {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.dashboard__texto {
+    color: #808080;
+}
+
+.processButton {
+    background-color: #E1E1E1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: 700;
+}
+
+.processButton:hover {
+    opacity: 0.6;
+    transition: 0.8s ease;
+    cursor: pointer;
+}
+
+.listsContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}

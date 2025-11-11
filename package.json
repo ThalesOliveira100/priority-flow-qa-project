@@ -1,0 +1,19 @@
+{
+  "name": "priority_flow.fiesc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "test:unit": "cd backend && npm run test",
+    "test:e2e": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^15.5.0"
+  }
+}

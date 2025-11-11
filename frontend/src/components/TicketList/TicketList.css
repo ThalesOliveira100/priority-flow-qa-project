@@ -1,0 +1,115 @@
+.ticketList {
+    flex: 1;
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+    height: fit-content;
+}
+
+.ticketList__title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 0.75rem;
+}
+
+.ticketList__container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.ticketList__item {
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    padding: 0.75rem;
+    transition: 0.2s ease;
+    background-color: #f9fafb;
+}
+
+.ticketList__item:hover {
+    background-color: #f3f4f6;
+}
+
+.ticketList__titulo {
+    font-weight: 600;
+    font-size: 0.95rem;
+    margin-bottom: 0.3rem;
+    word-wrap: break-word;
+    word-break: break-word;
+    white-space: normal;
+    overflow-wrap: anywhere;
+}
+
+.ticketList__descricao {
+    font-size: 0.85rem;
+    color: #4b5563;
+    margin-bottom: 0.5rem;
+}
+
+.ticketList__meta {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    color: #6b7280;
+}
+
+/* Spans com a urgencia do ticket */
+.ticketList__urgencia-critica, .ticketList__urgencia-alta, .ticketList__urgencia-media, .ticketList__urgencia-baixa {
+    display: block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 8px;
+    color: white;
+    align-self: center;
+}
+
+.ticketList__urgencia-critica {
+    background-color: #dc2626;
+}
+
+.ticketList__urgencia-alta {
+    background-color: #f97316;
+}
+
+.ticketList__urgencia-media {
+    background-color: #eab308;
+}
+
+.ticketList__urgencia-baixa {
+    background-color: #22c55e;
+}
+
+/* Estados de urgência */
+.urgencia-critica {
+    border-left: 4px solid #dc2626;
+}
+.urgencia-alta {
+    border-left: 4px solid #f97316;
+}
+.urgencia-media {
+    border-left: 4px solid #eab308;
+}
+.urgencia-baixa {
+    border-left: 4px solid #22c55e;
+}
+.urgencia-pendente {
+    border-left: 4px solid #9ca3af;
+}
+
+.ticketList__vazio {
+    text-align: center;
+    color: #9ca3af;
+    font-size: 0.9rem;
+    padding: 1.5rem 0;
+    border: 2px dashed #e5e7eb;
+    border-radius: 10px;
+}
+
+.ticketList__item-detalhes {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.5rem;
+}

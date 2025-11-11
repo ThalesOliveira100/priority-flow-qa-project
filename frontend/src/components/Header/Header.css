@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    margin: 1.5rem;
+}
+
+.header__logo {
+    width: 32px;
+    height: auto;
+    object-fit: contain;
+}
+
+.header__titulo {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.header__texto {
+    color: #808080;
+}
